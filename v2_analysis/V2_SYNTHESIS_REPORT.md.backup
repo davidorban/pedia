@@ -1,4 +1,4 @@
-# Wikipedia vs Grokipedia: Quality-Focused Analysis
+# Wikipedia vs Grokipedia: Quality-Focused Analysis (V2)
 
 **Analysis Date:** 2025-11-01
 **Version:** 2.0 (Quality-focused)
@@ -21,15 +21,9 @@
 
 ---
 
-## Methodology
+## Methodology Refinement (V2)
 
-### Research Approach
-
-This analysis compares Wikipedia and Grokipedia on topics where both platforms have coverage. Rather than penalizing platforms for gaps, we focus on quality differences when content exists. This provides a fair basis for comparing AI-generated vs community-edited encyclopedia quality.
-
-The approach: Select topics where Grokipedia has articles, evaluate quality across multiple dimensions, and identify structural advantages of each platform.
-
-###
+### Why V2 Was Necessary
 
 The V1 analysis revealed severe coverage gaps in Grokipedia (60% of topics missing), making direct comparison problematic. V1's methodology penalized Grokipedia for absent articles, which obscured quality differences when both platforms had coverage.
 
