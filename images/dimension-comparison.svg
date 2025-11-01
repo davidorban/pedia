@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1f2937">
+    Quality Dimensions Comparison
+  </text>
+  <text x="450" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#6b7280">
+    Average scores across all 7 topics (out of 5.0)
+  </text>
+
+  <!-- Legend -->
+  <rect x="320" y="85" width="20" height="20" rx="4" fill="#2563eb"/>
+  <text x="345" y="100" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Wikipedia</text>
+  <rect x="480" y="85" width="20" height="20" rx="4" fill="#f97316"/>
+  <text x="505" y="100" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Grokipedia</text>
+
+  <!-- Dimension 1: Accuracy (TIE) -->
+  <text x="50" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Accuracy</text>
+  <rect x="200" y="143" width="300" height="25" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="143" width="300" height="25" rx="4" fill="#2563eb" opacity="0.3"/>
+  <rect x="200" y="143" width="300" height="25" rx="4" fill="#f97316" opacity="0.3"/>
+  <text x="520" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="end" fill="#10b981">5.0 🤝</text>
+
+  <!-- Dimension 2: Timeliness -->
+  <text x="50" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Timeliness</text>
+  <rect x="200" y="203" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="203" width="204" height="12" rx="4" fill="#2563eb"/>
+  <text x="520" y="215" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#6b7280">3.4</text>
+
+  <rect x="200" y="220" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="220" width="300" height="12" rx="4" fill="#f97316"/>
+  <text x="520" y="232" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#f97316">5.0 ✓</text>
+
+  <!-- Dimension 3: Citations -->
+  <text x="50" y="280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Citations</text>
+  <rect x="200" y="263" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="263" width="216" height="12" rx="4" fill="#2563eb"/>
+  <text x="520" y="275" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#6b7280">3.6</text>
+
+  <rect x="200" y="280" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="280" width="300" height="12" rx="4" fill="#f97316"/>
+  <text x="520" y="292" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#f97316">5.0 ✓</text>
+
+  <!-- Dimension 4: Depth -->
+  <text x="50" y="340" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Depth</text>
+  <rect x="200" y="323" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="323" width="216" height="12" rx="4" fill="#2563eb"/>
+  <text x="520" y="335" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#6b7280">3.6</text>
+
+  <rect x="200" y="340" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="340" width="294" height="12" rx="4" fill="#f97316"/>
+  <text x="520" y="352" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#f97316">4.9 ✓</text>
+
+  <!-- Dimension 5: Balanced Perspective -->
+  <text x="50" y="400" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Balanced</text>
+  <text x="50" y="420" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Perspective</text>
+  <rect x="200" y="383" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="383" width="198" height="12" rx="4" fill="#2563eb"/>
+  <text x="520" y="395" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#6b7280">3.3</text>
+
+  <rect x="200" y="400" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="400" width="264" height="12" rx="4" fill="#f97316"/>
+  <text x="520" y="412" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#f97316">4.4 ✓</text>
+
+  <!-- Dimension 6: Epistemic Framing -->
+  <text x="50" y="470" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Epistemic</text>
+  <text x="50" y="490" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Framing</text>
+  <rect x="200" y="453" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="453" width="228" height="12" rx="4" fill="#2563eb"/>
+  <text x="520" y="465" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#6b7280">3.8</text>
+
+  <rect x="200" y="470" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="470" width="282" height="12" rx="4" fill="#f97316"/>
+  <text x="520" y="482" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#f97316">4.7 ✓</text>
+
+  <!-- Dimension 7: Readability -->
+  <text x="50" y="540" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f2937">Readability</text>
+  <rect x="200" y="523" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="523" width="240" height="12" rx="4" fill="#2563eb"/>
+  <text x="520" y="535" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#6b7280">4.0</text>
+
+  <rect x="200" y="540" width="300" height="12" rx="4" fill="#e5e7eb"/>
+  <rect x="200" y="540" width="276" height="12" rx="4" fill="#f97316"/>
+  <text x="520" y="552" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="end" fill="#f97316">4.6 ✓</text>
+
+  <!-- Summary Box -->
+  <rect x="150" y="590" width="600" height="80" rx="10" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="450" y="620" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1f2937">
+    Results: Grokipedia wins 6/7 dimensions
+  </text>
+  <text x="450" y="645" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6b7280">
+    Perfect tie on Accuracy (5.0/5) • Largest advantages: Timeliness (+1.6), Citations (+1.4), Depth (+1.3)
+  </text>
+</svg>

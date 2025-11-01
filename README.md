@@ -13,6 +13,8 @@
 
 **[View the interactive analysis on GitHub Pages →](https://davidorban.github.io/pedia)**
 
+**[📊 Interactive Data Visualizations →](https://davidorban.github.io/pedia/visualizations.html)**
+
 ## 📊 Executive Summary
 
 This research compares Wikipedia (human-curated) and Grokipedia (AI-generated) across topics where **both platforms have coverage**, focusing on content quality.
@@ -94,6 +96,10 @@ pedia/
 - [Comprehensive Synthesis Report](v2_analysis/V2_SYNTHESIS_REPORT.md) - Complete 15K word analysis
 - [Blog Post](v2_analysis/BLOG_POST.md) - Short 595-word summary for publication
 - [Key Insights](v2_analysis/KEY_INSIGHTS.md) - Executive summary with strategic implications
+
+**Visualizations:**
+- [Interactive Charts](visualizations.html) - 7 interactive visualizations with Chart.js
+- [SVG Graphics](images/) - High-quality vector graphics for presentations
 
 **Individual Evaluations:**
 - [Bitcoin Evaluation](v2_analysis/eval_bitcoin.md)
