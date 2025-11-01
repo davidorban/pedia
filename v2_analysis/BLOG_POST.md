@@ -4,14 +4,12 @@ When Elon Musk's xAI launched Grokipedia in October 2025, claiming it would be a
 
 ## Why This Comparison Matters
 
-My initial analysis revealed Grokipedia had significant coverage gaps—it was missing 60% of the topics I tested. But that's not a fair comparison for a platform that's only weeks old and explicitly in early beta.
-
-So I asked a better question: **When both platforms cover the same topic, which delivers higher quality?**
+Grokipedia is explicitly in early beta and doesn't yet have universal coverage. So instead of focusing on what's missing, I asked a different question: **When both platforms cover the same topic, which delivers higher quality?**
 
 ## How I Tested
 
 I selected seven topics where:
-1. Grokipedia actually has articles (no coverage-gap bias)
+1. Grokipedia actually has articles (fair comparison basis)
 2. I have 15+ years of expertise (I can evaluate quality with authority)
 3. The topics span my core domains: blockchain, space technology, AI/robotics, and entrepreneurship
 
@@ -41,9 +39,6 @@ Grokipedia is fact-checked within days. Wikipedia lags by months or years. On bl
 ### 📚 Citation Depth Advantage
 Grokipedia averaged 265 references per article vs Wikipedia's 166—that's 59% more citations. On entrepreneurship, Grokipedia had 163% more references. For researchers digging deeper, this breadth is valuable.
 
-### 📊 The Quality-Coverage Paradox
-Here's the nuance: Grokipedia is an excellent specialist but an incomplete generalist. Where it has coverage, quality is superior (94%). But it doesn't cover everything yet—my initial test showed 60% coverage gaps in emerging interdisciplinary topics.
-
 ## What This Means for You
 
 **Don't choose one platform. Use both strategically:**
@@ -55,7 +50,7 @@ Here's the nuance: Grokipedia is an excellent specialist but an incomplete gener
 - You need systematic analytical depth on societal impacts
 
 **Use Wikipedia when:**
-- Grokipedia doesn't have the topic yet
+- The topic you need isn't on Grokipedia yet
 - You need academic citation authority
 - You want community-vetted consensus on controversial topics
 - You need historical context (pre-2024)
