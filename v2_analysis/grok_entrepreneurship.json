@@ -1,0 +1,52 @@
+{
+  "title": "Entrepreneurship",
+  "summary": "Entrepreneurship is the process of discovering new ways of combining resources to generate greater market value than their cost, involving the identification of opportunities, assumption of uncertainty, and organization of production. Empirically, entrepreneurship drives economic growth through innovation, job creation, and enhanced competition, with studies showing positive correlations between entrepreneurial activity and GDP increases across countries.",
+  "word_count": 85,
+  "structure": [
+    "Fundamentals",
+    "Historical Evolution",
+    "Theoretical Foundations",
+    "Types and Variations",
+    "Entrepreneurial Process",
+    "Psychological and Behavioral Dimensions",
+    "Financing and Resource Acquisition",
+    "Institutional and Policy Influences",
+    "Education and Capability Building",
+    "Success Metrics and Failure Dynamics",
+    "Economic and Societal Ramifications"
+  ],
+  "factual": [
+    {
+      "claim": "Around 90% of startups do not survive long-term",
+      "reference": "Ref 5"
+    },
+    {
+      "claim": "Entrepreneurs exhibit higher levels of openness to experience",
+      "reference": "Ref 131"
+    },
+    {
+      "claim": "Venture capital investment volume stood at $337 billion in 2024",
+      "reference": "Ref 189"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Entrepreneurship is complex, risky, but fundamentally important for economic progress",
+      "tone": "Analytical, slightly skeptical",
+      "stance": "Balanced assessment"
+    },
+    {
+      "statement": "Systemic biases exist in academic and media portrayals of entrepreneurship",
+      "tone": "Critical",
+      "stance": "Highlighting structural issues"
+    },
+    {
+      "statement": "Entrepreneurship drives economic growth through innovation and competition",
+      "tone": "Evidence-based",
+      "stance": "Emphasizing measurable impact"
+    }
+  ],
+  "references_count": 292,
+  "last_updated": "Fact-checked by Grok 5 days ago",
+  "url": "https://grokipedia.com/page/Entrepreneurship"
+}

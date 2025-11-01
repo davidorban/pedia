@@ -1,0 +1,121 @@
+# =====================================================================
+# PROJECT: Wikipedia vs Grokipedia Comparative Analysis
+# AUTHOR: David Orban
+# VERSION: v1.0
+# DATE: 2025-11-01
+# PURPOSE: Multi-agent orchestration for epistemic comparison
+# =====================================================================
+
+meta:
+  description: >
+    Compare topic coverage between Wikipedia (human-curated) and Grokipedia (AI-aggregated)
+    across technical, philosophical, and socio-economic domains.
+  output_format: markdown
+  default_model: gpt-5
+
+# =====================================================================
+# GLOBAL PARAMETERS
+# =====================================================================
+parameters:
+  topics:
+    - Artificial General Intelligence
+    - Decentralized governance
+    - Technological singularity
+    - Scaling laws in AI
+    - UAE digital asset regulation
+  dimensions:
+    - Accuracy
+    - Depth
+    - Timeliness
+    - Epistemic Framing
+    - Citations & Sources
+    - Readability
+    - AI-Augmentation Signs
+
+# =====================================================================
+# AGENTS
+# =====================================================================
+
+agents:
+
+  - id: wikipedia_retriever
+    role: "Wikipedia Knowledge Collector"
+    goal: "Retrieve structured article content from Wikipedia"
+    tools: [web.search]
+    prompt: |
+      Search site:wikipedia.org for "{{topic}}".
+      Extract:
+        - title
+        - lead summary (≤300 words)
+        - section headings
+        - top 3 factual claims (with references)
+        - top 3 interpretive statements (with tone/stance)
+      Output JSON with keys: title, summary, structure, factual, interpretive, url.
+
+  - id: grokipedia_retriever
+    role: "Grokipedia Knowledge Collector"
+    goal: "Retrieve structured article content from Grokipedia"
+    tools: [web.search]
+    prompt: |
+      Search Grokipedia for "{{topic}}" or query grok.com/pedia.
+      Extract identical fields as Wikipedia agent.
+      Output JSON with the same schema for cross-comparison.
+
+  - id: evaluator
+    role: "Comparative Evaluator"
+    goal: "Perform dimension-wise evaluation between sources"
+    prompt: |
+      Compare the Wikipedia and Grokipedia JSONs for {{topic}}.
+      For each dimension in {{dimensions}}:
+        - Assign a score 1–5 (justify in ≤100 words)
+        - Identify key divergences or missing context
+      Output as a Markdown table + concise paragraph summary.
+
+  - id: synthesizer
+    role: "Meta-Synthesis Analyst"
+    goal: "Identify systemic patterns across all topics"
+    prompt: |
+      Aggregate evaluation results across all topics.
+      Detect recurring strengths, weaknesses, and epistemic tendencies.
+      Output:
+        1. Executive summary (≤400 words)
+        2. Clustered insights (3–5 recurring themes)
+        3. Table of average scores per dimension.
+        4. Recommendations for ongoing comparative monitoring.
+
+# =====================================================================
+# WORKFLOW
+# =====================================================================
+
+workflow:
+
+  - step: Retrieve from Wikipedia
+    run: wikipedia_retriever
+    for_each: topic in topics
+    save_as: wiki_{{topic}}.json
+
+  - step: Retrieve from Grokipedia
+    run: grokipedia_retriever
+    for_each: topic in topics
+    save_as: grok_{{topic}}.json
+
+  - step: Evaluate Comparisons
+    run: evaluator
+    inputs:
+      - wiki_{{topic}}.json
+      - grok_{{topic}}.json
+    for_each: topic in topics
+    save_as: eval_{{topic}}.md
+
+  - step: Synthesize Results
+    run: synthesizer
+    inputs:
+      - eval_*.md
+    save_as: synthesis_report.md
+
+# =====================================================================
+# OUTPUTS
+# =====================================================================
+outputs:
+  - synthesis_report.md
+  - eval_*.md

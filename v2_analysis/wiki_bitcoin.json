@@ -1,0 +1,48 @@
+{
+  "title": "Bitcoin",
+  "summary": "Bitcoin is the first decentralized cryptocurrency, invented in 2008 by an unknown entity using the pseudonym Satoshi Nakamoto. Based on a free-market ideology, bitcoin began use as a currency in 2009 with an open-source implementation. From 2021-2025, El Salvador adopted it as legal tender. As a pseudonymous currency, its use by criminals has attracted regulatory attention, leading to bans in several countries.",
+  "word_count": 85,
+  "structure": [
+    "History",
+    "Design",
+    "Economics and usage",
+    "See also",
+    "Notes",
+    "References"
+  ],
+  "factual": [
+    {
+      "claim": "Bitcoin was created in 2008 by Satoshi Nakamoto",
+      "reference": "Ref 4"
+    },
+    {
+      "claim": "One bitcoin is divisible to eight decimal places",
+      "reference": "Ref 6"
+    },
+    {
+      "claim": "As of June 2023, bitcoin had an estimated 81.7 million users",
+      "reference": "Ref 62"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Economists describe bitcoin as potentially an 'economic bubble'",
+      "tone": "Critical of bitcoin's economic utility",
+      "stance": "Skeptical",
+      "reference": "Refs 150-154"
+    },
+    {
+      "statement": "Bitcoin functions more as a payment system than a currency",
+      "tone": "Analytical",
+      "stance": "Neutral"
+    },
+    {
+      "statement": "Use by criminals has attracted regulatory attention",
+      "tone": "Critical",
+      "stance": "Cautionary"
+    }
+  ],
+  "references_count": 166,
+  "last_updated": "2025 (references to events in 2025)",
+  "url": "https://en.wikipedia.org/wiki/Bitcoin"
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Artificial General Intelligence",
+  "summary": "Artificial general intelligence (AGI) is a type of artificial intelligence that would match or surpass human capabilities across virtually all cognitive tasks. Some researchers argue that current large language models already exhibit signs of AGI-level capability, while others maintain that genuine AGI has not yet been achieved. Unlike narrow AI, an AGI system can generalize knowledge, transfer skills between domains, and solve novel problems without task-specific reprogramming. Creating AGI is a primary goal of AI research companies like OpenAI, Google, xAI, and Meta. A 2020 survey identified 72 active AGI research projects across 37 countries. The timeline for achieving human-level intelligence AI remains deeply contested, with recent surveys of AI researchers giving median forecasts ranging from the late 2020s to mid-century.",
+  "structure": [
+    "Terminology",
+    "Characteristics",
+    "History",
+    "Whole brain emulation",
+    "Philosophical perspective",
+    "Benefits",
+    "Risks"
+  ],
+  "factual": [
+    {
+      "claim": "A 2020 survey identified 72 active AGI research and development projects across 37 countries.",
+      "reference": "Citation 10"
+    },
+    {
+      "claim": "Each of the 1011 (one hundred billion) neurons has on average 7,000 synaptic connections (synapses) to other neurons.",
+      "reference": "Citation 140"
+    },
+    {
+      "claim": "In 2022, DeepMind developed Gato, a 'general-purpose' system capable of performing more than 600 different tasks.",
+      "reference": "Citation 129"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "AGI could become a tool for scientific research and innovation... Problems that have remained unsolved for decades may be solved with AGI.",
+      "tone": "optimistic",
+      "stance": "pro-benefits"
+    },
+    {
+      "statement": "If an AGI's primary goal is to prevent existential catastrophes such as human extinction... it could take measures to drastically reduce the risks.",
+      "tone": "hopeful",
+      "stance": "pro-safety"
+    },
+    {
+      "statement": "AGI may represent multiple types of existential risk... the development of AGI would lead to a permanently flawed future.",
+      "tone": "cautionary",
+      "stance": "risk-aware"
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+}

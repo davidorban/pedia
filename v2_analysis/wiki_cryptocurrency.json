@@ -1,0 +1,54 @@
+{
+  "title": "Cryptocurrency",
+  "summary": "A cryptocurrency is a digital currency designed to work through computer networks without reliance on central authorities like governments or banks. It uses blockchain technology to record coin ownership and transactions, with consensus mechanisms like proof of work or proof of stake. Bitcoin was the first cryptocurrency, released in 2009, and as of June 2023, over 25,000 cryptocurrencies existed, with more than 40 having a market capitalization exceeding $1 billion.",
+  "word_count": 95,
+  "structure": [
+    "History",
+    "Formal definition",
+    "Physical crypto",
+    "Architecture",
+    "Economics",
+    "Social and political aspects",
+    "Regulation",
+    "Legality",
+    "Impacts and analysis",
+    "See also",
+    "References",
+    "Further reading",
+    "External links"
+  ],
+  "factual": [
+    {
+      "claim": "Bitcoin was first released as open-source software in 2009",
+      "reference": "Ref 11"
+    },
+    {
+      "claim": "As of April 2025, the cryptocurrency market capitalization was already estimated at $2.76 trillion",
+      "reference": "Ref 12"
+    },
+    {
+      "claim": "In June 2021, El Salvador became the first country to accept bitcoin as legal tender",
+      "reference": "Ref 27"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Cryptocurrencies seen as a way to 'separate money from the state' from libertarian perspective",
+      "tone": "Neutral/Philosophical",
+      "stance": "Presenting ideological viewpoint"
+    },
+    {
+      "statement": "Paul Krugman's critique: Cryptocurrencies are 'something of a cult' based on 'paranoid fantasies'",
+      "tone": "Critical/Dismissive",
+      "stance": "Skeptical economist perspective"
+    },
+    {
+      "statement": "Cryptocurrency ecosystem needs dramatic improvement in 'user experience, controls, safety, customer service'",
+      "tone": "Constructive/Critical",
+      "stance": "Technology analyst viewpoint"
+    }
+  ],
+  "references_count": 175,
+  "last_updated": "January 2025 (content references events up to January 2025)",
+  "url": "https://en.wikipedia.org/wiki/Cryptocurrency"
+}

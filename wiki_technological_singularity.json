@@ -1,0 +1,52 @@
+{
+  "title": "Technological Singularity",
+  "summary": "The technological singularity is a 'hypothetical event in which technological growth accelerates beyond human control, producing unpredictable changes in human civilization.' According to the most popular hypothesis by I. J. Good, an upgradable intelligent agent could enter a 'positive feedback loop of successive self-improvement cycles' where increasingly intelligent generations emerge rapidly, ultimately creating a superintelligence far surpassing human intelligence. The consequences of a technological singularity and its potential benefit or harm to the human race have been intensely debated. It is unclear whether an intelligence explosion resulting in a singularity would be beneficial or harmful, or even an existential threat. Prominent technologists and academics dispute the plausibility of a technological singularity and associated artificial intelligence 'explosion'. Between 1986 and 2007, machines' application-specific capacity to compute information per capita roughly doubled every 14 months. A median confidence of 50% that human-level AI would be developed by 2040-2050 was the outcome of four informal polls of AI researchers.",
+  "structure": [
+    "History",
+    "Intelligence explosion",
+    "Emergence of superintelligence",
+    "Variations",
+    "Predictions",
+    "Plausibility",
+    "Speed improvements",
+    "Algorithm improvements",
+    "Criticism",
+    "Potential impacts",
+    "Hard or soft takeoff",
+    "Relation to immortality and aging",
+    "History of the concept",
+    "In politics"
+  ],
+  "factual": [
+    {
+      "claim": "Some scientists, including Stephen Hawking, have expressed concern that artificial superintelligence could result in human extinction.",
+      "reference": "Ref 5-6"
+    },
+    {
+      "claim": "Between 1986 and 2007, machines' application-specific capacity to compute information per capita roughly doubled every 14 months",
+      "reference": "Ref 55"
+    },
+    {
+      "claim": "A median confidence of 50% that human-level AI would be developed by 2040-2050 was the outcome of four informal polls of AI researchers",
+      "reference": "Ref 41-42"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "The consequences of a technological singularity and its potential benefit or harm to the human race have been intensely debated.",
+      "tone": "neutral-academic",
+      "stance": "presenting-debate"
+    },
+    {
+      "statement": "It is unclear whether an intelligence explosion resulting in a singularity would be beneficial or harmful, or even an existential threat.",
+      "tone": "uncertain",
+      "stance": "balanced-uncertainty"
+    },
+    {
+      "statement": "Prominent technologists and academics dispute the plausibility of a technological singularity and associated artificial intelligence 'explosion'.",
+      "tone": "skeptical",
+      "stance": "presenting-criticism"
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Technological_singularity"
+}

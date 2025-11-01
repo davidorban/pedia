@@ -1,0 +1,62 @@
+# GitHub Pages Configuration for Wikipedia vs Grokipedia Comparison
+
+title: Wikipedia vs Grokipedia - Quality Comparison
+description: A quality-focused analysis comparing Wikipedia and Grokipedia encyclopedias on technical topics
+author: David Orban
+email: contact@davidorban.com
+url: https://davidorban.github.io
+baseurl: /pedia
+
+# Build settings
+markdown: kramdown
+theme: null  # Using custom HTML instead of Jekyll theme
+
+# Exclude files from site build
+exclude:
+  - .claude
+  - .claude-flow
+  - .hive-mind
+  - .roo
+  - .swarm
+  - claude-flow
+  - claude-flow.bat
+  - claude-flow.ps1
+  - CLAUDE.md
+  - coordination
+  - memory
+  - config/claude-flow.config.json
+  - LICENSE
+  - .gitignore
+  - eval.yaml
+
+# Include specific files
+include:
+  - index.html
+  - README.md
+  - v2_analysis
+  - output
+
+# Collections for better organization
+collections:
+  v2_analysis:
+    output: true
+    permalink: /v2/:name
+  output:
+    output: true
+    permalink: /v1/:name
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null
+
+# GitHub Pages gem
+plugins:
+  - jekyll-relative-links
+
+# Enable relative links for markdown files
+relative_links:
+  enabled: true
+  collections: true

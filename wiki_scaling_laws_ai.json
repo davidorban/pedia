@@ -1,0 +1,48 @@
+{
+  "title": "Neural Scaling Law",
+  "summary": "In machine learning, a neural scaling law is an empirical scaling law describing how neural network performance changes as key factors are scaled up or down. These factors typically include the number of parameters, training dataset size, and training cost. Some models also exhibit performance gains by scaling inference through increased test-time compute, extending neural scaling laws beyond training to deployment. Neural scaling law is a theoretical or empirical statistical law between parameters like model size, dataset size, computing cost, and loss. Training cost is typically measured in time and computational resources, which can be significantly reduced with efficient training algorithms and parallel computing. For a given training compute budget, to achieve minimal pretraining loss, the number of model parameters and training tokens should be scaled in equal proportions.",
+  "structure": [
+    "Introduction",
+    "Examples",
+    "(Hestness, Narang, et al, 2017)",
+    "(Henighan, Kaplan, et al, 2020)",
+    "Chinchilla scaling",
+    "Broken neural scaling laws",
+    "Inference scaling",
+    "Other examples",
+    "See also",
+    "References"
+  ],
+  "factual": [
+    {
+      "claim": "Neural scaling law is a theoretical or empirical statistical law between parameters like model size, dataset size, computing cost, and loss.",
+      "reference": "Reference 1"
+    },
+    {
+      "claim": "Training cost is typically measured in time and computational resources, which can be significantly reduced with efficient training algorithms and parallel computing.",
+      "reference": "Reference 5"
+    },
+    {
+      "claim": "For a given training compute budget, to achieve minimal pretraining loss, the number of model parameters and training tokens should be scaled in equal proportions.",
+      "reference": "Reference 14"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Larger training datasets are typically preferred, as they provide a richer and more diverse source of information from which the model can learn.",
+      "tone": "informative",
+      "stance": "pro-scaling"
+    },
+    {
+      "statement": "Performance can be improved by using more data, larger models, different training algorithms, regularizing the model to prevent overfitting, and early stopping.",
+      "tone": "instructive",
+      "stance": "optimization-focused"
+    },
+    {
+      "statement": "As models grow larger, researchers are exploring ways to go 'beyond Chinchilla scaling' by modifying training pipelines to obtain the same loss with less effort.",
+      "tone": "forward-looking",
+      "stance": "efficiency-focused"
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Neural_scaling_law"
+}

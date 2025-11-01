@@ -1,0 +1,55 @@
+{
+  "title": "Elon Musk",
+  "summary": "Elon Musk is a businessman and entrepreneur known for leading Tesla, SpaceX, Twitter, and xAI. Born in South Africa in 1971, he emigrated to Canada and later became a U.S. citizen. He co-founded companies like PayPal, SpaceX, and Tesla, becoming one of the world's wealthiest individuals. Musk has been involved in various technological ventures, including neurotechnology (Neuralink) and artificial intelligence research. He has been a controversial public figure, particularly for his political activities and statements.",
+  "word_count": 100,
+  "structure": [
+    "Early life",
+    "Business career",
+    "Other activities",
+    "Politics",
+    "Views",
+    "Legal affairs",
+    "Personal life",
+    "Wealth",
+    "Public image",
+    "See also",
+    "Notes",
+    "References",
+    "Further reading",
+    "External links"
+  ],
+  "factual": [
+    {
+      "claim": "Musk founded SpaceX in 2002 with $100 million of his early fortune",
+      "reference": "Reference 89, 90"
+    },
+    {
+      "claim": "Acquired Twitter for approximately $44 billion in October 2022",
+      "reference": "Reference 183-187"
+    },
+    {
+      "claim": "Became the wealthiest person in the world since 2021, with an estimated net worth of $500 billion as of October 2025",
+      "reference": "Implied in text"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Musk is a polarizing figure with significant technological achievements",
+      "tone": "Balanced",
+      "stance": "Acknowledging complexity"
+    },
+    {
+      "statement": "Portrayed as controversial, particularly regarding political views and social media management",
+      "tone": "Critical",
+      "stance": "Highlighting controversies"
+    },
+    {
+      "statement": "Complex personal and professional trajectory with both innovative successes and contentious moments",
+      "tone": "Analytical",
+      "stance": "Comprehensive assessment"
+    }
+  ],
+  "references_count": 210,
+  "last_updated": "October 2025 (references suggest content current as of October 2025)",
+  "url": "https://en.wikipedia.org/wiki/Elon_Musk"
+}

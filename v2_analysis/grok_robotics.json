@@ -1,0 +1,51 @@
+{
+  "title": "Robotics",
+  "summary": "Robotics is a branch of engineering and computer science involving the design, construction, operation, and application of robots—machines programmed to execute complex tasks automatically, often substituting for human effort in repetitive, dangerous, or precision-demanding activities. The field's modern origins trace to the mid-20th century, with the Unimate, the first industrially deployed robot arm, installed at a General Motors plant in 1961 to handle die-casting tasks, marking the start of automated manufacturing on a large scale.",
+  "word_count": 100,
+  "structure": [
+    "Definition and Fundamentals",
+    "History",
+    "Mechanical Design",
+    "Sensing and Perception",
+    "Control Systems",
+    "Mobility and Interaction",
+    "Applications",
+    "Research and Innovations",
+    "Societal and Economic Impacts",
+    "Controversies and Debates"
+  ],
+  "factual": [
+    {
+      "claim": "Over 3.9 million industrial robots installed worldwide by 2022",
+      "reference": "Reference 11"
+    },
+    {
+      "claim": "First Unimate robot installed at General Motors in 1961",
+      "reference": "Reference 3"
+    },
+    {
+      "claim": "Robots added approximately 0.20 percentage points annually to U.S. GDP growth",
+      "reference": "Reference 313"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Robots enhance productivity but create complex social challenges",
+      "tone": "Optimistic about technological potential",
+      "stance": "Balanced view of benefits and challenges"
+    },
+    {
+      "statement": "Transformative potential of AI and robotics highlighted",
+      "tone": "Forward-looking",
+      "stance": "Emphasizing innovation"
+    },
+    {
+      "statement": "Acknowledges both economic benefits and potential workforce disruptions",
+      "tone": "Analytical",
+      "stance": "Realistic about trade-offs"
+    }
+  ],
+  "references_count": 337,
+  "last_updated": "Fact-checked by Grok 5 days ago",
+  "url": "https://grokipedia.com/page/Robotics"
+}

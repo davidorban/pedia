@@ -1,0 +1,54 @@
+{
+  "title": "Robotics",
+  "summary": "Robotics is the interdisciplinary study and practice of designing, constructing, operating, and using robots. It involves multiple engineering disciplines including mechanical, computer, electrical, control, and software engineering. The primary goal of robotics is to create machines that help and assist humans, performing tasks that are hazardous, boring, repetitive, or unpleasant.",
+  "word_count": 75,
+  "structure": [
+    "Robotics aspects",
+    "Applied robotics",
+    "Mechanical robotics areas",
+    "Control robotics areas",
+    "Computational robotics areas",
+    "Human factors",
+    "Careers",
+    "History",
+    "See also",
+    "Notes",
+    "References",
+    "Further reading",
+    "External links"
+  ],
+  "factual": [
+    {
+      "claim": "The goal of most robotics is to design machines that can help and assist humans",
+      "reference": "No specific reference"
+    },
+    {
+      "claim": "According to the Robotic Industries Association US data, in 2016 the automotive industry was the main customer of industrial robots with 52% of total sales",
+      "reference": "Reference 5"
+    },
+    {
+      "claim": "Currently, the best systems can recognize continuous, natural speech, up to 160 words per minute, with an accuracy of 95%",
+      "reference": "Reference 125"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Robots positioned as potential collaborative partners with humans",
+      "tone": "Optimistic, technological progress-oriented",
+      "stance": "Pro-automation and human-robot collaboration"
+    },
+    {
+      "statement": "Robotics will increasingly integrate into human environments and tasks",
+      "tone": "Forward-looking",
+      "stance": "Anticipating widespread adoption"
+    },
+    {
+      "statement": "Focus on robots performing hazardous, boring, repetitive tasks",
+      "tone": "Pragmatic",
+      "stance": "Emphasizing practical utility"
+    }
+  ],
+  "references_count": 136,
+  "last_updated": "August 2024 (based on metadata)",
+  "url": "https://en.wikipedia.org/wiki/Robotics"
+}

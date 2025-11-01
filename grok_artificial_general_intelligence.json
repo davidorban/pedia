@@ -1,0 +1,49 @@
+{
+  "title": "Artificial General Intelligence",
+  "summary": "AGI is a hypothetical type of artificial intelligence capable of understanding, learning, and applying knowledge to accomplish any intellectual task that a human being can perform. As of October 2025, no system has achieved AGI, with current AI models demonstrating impressive but limited capabilities. AGI would possess the ability to generalize across diverse domains, adapt to novel tasks, and demonstrate reasoning and problem-solving capabilities across different contexts. The concept originated in mid-20th century AI research, experienced multiple 'AI winters' of reduced funding and progress, but has seen recent resurgence through large language models and scaling techniques. Potential benefits include economic productivity enhancement, scientific and medical research acceleration, individual cognitive augmentation, and improved security systems. However, significant risks exist including alignment challenges, economic disruption, potential existential risks, and ethical uncertainties about machine intelligence.",
+  "structure": [
+    "Artificial General Intelligence",
+    "Definition and Terminology",
+    "Essential Characteristics",
+    "Historical Development",
+    "Approaches to Realization",
+    "Technical Challenges",
+    "Timelines and Feasibility Assessments",
+    "Potential Benefits",
+    "Risks and Criticisms",
+    "Philosophical and Ethical Dimensions",
+    "References"
+  ],
+  "factual": [
+    {
+      "claim": "No system has attained AGI as of October 2025, with current large language models lacking robust generalization, causal understanding, and reliable performance",
+      "reference": "[7][8]"
+    },
+    {
+      "claim": "Expert surveys place the median estimate for high-level machine intelligence around 2040",
+      "reference": "[9][10]"
+    },
+    {
+      "claim": "Training GPT-3 required approximately 45 terabytes of text data using 936 megawatt-hours of energy",
+      "reference": "[159]"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "The article takes a balanced, scholarly tone that critically examines AGI's potential while maintaining academic skepticism about imminent breakthroughs.",
+      "tone": "balanced-academic",
+      "stance": "critically-examining"
+    },
+    {
+      "statement": "The text suggests AGI development is complex and multifaceted, emphasizing technical challenges alongside philosophical and ethical considerations.",
+      "tone": "nuanced",
+      "stance": "complexity-aware"
+    },
+    {
+      "statement": "The narrative implies that while AGI is promising, current approaches have significant limitations that must be carefully navigated.",
+      "tone": "cautiously-optimistic",
+      "stance": "limitations-aware"
+    }
+  ],
+  "url": "https://grokipedia.com/page/Artificial_general_intelligence"
+}

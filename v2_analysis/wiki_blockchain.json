@@ -1,0 +1,52 @@
+{
+  "title": "Blockchain",
+  "summary": "A blockchain is a 'distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes.' Each block contains transaction data, a timestamp, and a hash of the previous block, creating a chain resistant to alteration. Blockchains are typically managed by peer-to-peer networks using consensus algorithms, and were first created by Satoshi Nakamoto in 2008 for Bitcoin cryptocurrency transactions.",
+  "word_count": 95,
+  "structure": [
+    "History",
+    "Structure and design",
+    "Types",
+    "Uses",
+    "Cryptocurrencies",
+    "Blockchain interoperability",
+    "Energy consumption concerns",
+    "Academic research",
+    "See also",
+    "References",
+    "Further reading"
+  ],
+  "factual": [
+    {
+      "claim": "Bitcoin blockchain file size grew from 20 GB in 2014 to over 200 GB by 2020",
+      "reference": "Ref 15, 16"
+    },
+    {
+      "claim": "In 2021, Bitcoin used more electricity than Argentina",
+      "reference": "Ref 162"
+    },
+    {
+      "claim": "Blockchain can be used in supply chain tracking for industries like diamond mining",
+      "reference": "Ref 115, 116"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Blockchain is seen as a 'pivotal technological advancement of the 21st century'",
+      "tone": "Optimistic, transformative",
+      "stance": "Highlighting potential impact"
+    },
+    {
+      "statement": "Private blockchains may be 'more decentralized and secure' than public ones",
+      "tone": "Nuanced, analytical",
+      "stance": "Examining technical trade-offs"
+    },
+    {
+      "statement": "Blockchain could transform financial transactions by enhancing 'data storage, process simultaneous transactions'",
+      "tone": "Forward-looking, potential-focused",
+      "stance": "Emphasizing future capabilities"
+    }
+  ],
+  "references_count": 195,
+  "last_updated": "2022 (contains references up to 2022)",
+  "url": "https://en.wikipedia.org/wiki/Blockchain"
+}

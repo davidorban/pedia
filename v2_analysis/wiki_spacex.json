@@ -1,0 +1,51 @@
+{
+  "title": "SpaceX",
+  "summary": "Space Exploration Technologies Corp., commonly known as SpaceX, is a private American aerospace company headquartered in Starbase, Texas. Founded by Elon Musk in 2002, the company aims to reduce space launch costs and enable Mars colonization. SpaceX has made significant advances in rocket propulsion, reusable launch vehicles, human spaceflight, and satellite constellation technology. As of 2025, SpaceX is the world's dominant space launch provider, working closely with NASA and the U.S. Armed Forces.",
+  "word_count": 85,
+  "structure": [
+    "History",
+    "Hardware",
+    "Other projects",
+    "Facilities",
+    "Contracts",
+    "Launch market competition and pricing pressure",
+    "Corporate affairs",
+    "References",
+    "Further reading",
+    "External links"
+  ],
+  "factual": [
+    {
+      "claim": "SpaceX successfully launched two NASA astronauts into orbit in May 2020",
+      "reference": "Ref 129, 130"
+    },
+    {
+      "claim": "Starlink generated the bulk of SpaceX's income",
+      "reference": "Implied in text"
+    },
+    {
+      "claim": "SpaceX launched 61 rockets in 2022",
+      "reference": "Ref 94"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "SpaceX portrayed as transformative force in space exploration",
+      "tone": "Admiring of technological innovations",
+      "stance": "Positive assessment of company impact"
+    },
+    {
+      "statement": "Musk portrayed as visionary entrepreneur",
+      "tone": "Respectful",
+      "stance": "Highlighting leadership and vision"
+    },
+    {
+      "statement": "Company positioned as dominant space launch provider",
+      "tone": "Matter-of-fact",
+      "stance": "Recognizing market position"
+    }
+  ],
+  "references_count": 167,
+  "last_updated": "June 2025 (content references events up to June 2025)",
+  "url": "https://en.wikipedia.org/wiki/SpaceX"
+}

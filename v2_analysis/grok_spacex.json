@@ -1,0 +1,49 @@
+{
+  "title": "SpaceX",
+  "summary": "SpaceX is a private American aerospace company founded by Elon Musk in 2002 with the goal of reducing space travel costs and enabling multi-planetary human colonization. The company designs and launches advanced rockets and spacecraft, achieving significant milestones like the first privately developed liquid-fueled orbital rocket (Falcon 1 in 2008) and developing reusable rocket technology. SpaceX operates the Starlink satellite internet constellation and is developing the Starship system for interplanetary transport.",
+  "word_count": 95,
+  "structure": [
+    "History",
+    "Technological Innovations",
+    "Facilities and Operations",
+    "Business Model and Contracts",
+    "Corporate Structure",
+    "Regulatory and Legal Challenges",
+    "Achievements and Broader Impacts",
+    "References"
+  ],
+  "factual": [
+    {
+      "claim": "SpaceX achieved its first orbital launch with the two-stage Falcon 1 rocket on September 28, 2008",
+      "reference": "Ref 3"
+    },
+    {
+      "claim": "As of 2025, Falcon 9 has conducted hundreds of missions",
+      "reference": "Ref 5-7"
+    },
+    {
+      "claim": "SpaceX operates Starlink, the largest satellite constellation in history",
+      "reference": "Ref 8"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "SpaceX's iterative engineering approach has driven unprecedented launch cadence",
+      "tone": "Admiring",
+      "stance": "Highlighting innovative methodology"
+    },
+    {
+      "statement": "Technologies underscore SpaceX's approach to amortizing development costs",
+      "tone": "Analytical",
+      "stance": "Emphasizing strategic business thinking"
+    },
+    {
+      "statement": "Legacy development cycles prioritize compliance over iteration",
+      "tone": "Critical",
+      "stance": "Challenging traditional aerospace models"
+    }
+  ],
+  "references_count": 236,
+  "last_updated": "Fact-checked by Grok 5 days ago",
+  "url": "https://grokipedia.com/page/SpaceX"
+}

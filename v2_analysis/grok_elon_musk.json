@@ -1,0 +1,54 @@
+{
+  "title": "Elon Musk",
+  "summary": "Elon Reeve Musk is a naturalized American entrepreneur, engineer, and business magnate known for founding companies in electric vehicles, spaceflight, AI, and digital payments. He founded SpaceX (2002), became Tesla's CEO (2008), and established Neuralink, The Boring Company, and xAI. In 2022, he acquired Twitter for $44 billion, rebranding it as X. His companies have achieved significant milestones like SpaceX's reusable rockets and Tesla's electric vehicle production. Musk's net worth exceeded $400 billion, making him the world's richest person.",
+  "word_count": 100,
+  "structure": [
+    "Early Life and Education",
+    "Early Business Ventures",
+    "Founding and Leadership of SpaceX",
+    "Role in Tesla and Electric Vehicles",
+    "Acquisition and Transformation of Twitter into X",
+    "Other Ventures and Projects",
+    "Political Involvement and Government Roles",
+    "Public Views and Philosophy",
+    "Personal Life",
+    "Wealth and Economic Impact",
+    "Controversies and Criticisms",
+    "Achievements and Broader Influence",
+    "References"
+  ],
+  "factual": [
+    {
+      "claim": "Musk founded SpaceX in 2002 with $100 million from PayPal sale",
+      "reference": "Ref 47"
+    },
+    {
+      "claim": "Tesla delivered 1.79 million vehicles globally in 2024",
+      "reference": "Ref 79"
+    },
+    {
+      "claim": "Musk has fathered at least 12 children as of 2025",
+      "reference": "Ref 212"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Musk presented as a transformative but controversial figure",
+      "tone": "Admiring yet critical",
+      "stance": "Balanced analysis"
+    },
+    {
+      "statement": "Highlights vision of multiplanetary human existence and technological innovation",
+      "tone": "Analytical",
+      "stance": "Emphasizing ambitious goals"
+    },
+    {
+      "statement": "Analysis of technological ambitions with recognition of controversies",
+      "tone": "Comprehensive",
+      "stance": "Nuanced assessment"
+    }
+  ],
+  "references_count": 290,
+  "last_updated": "October 2025 (content references events through October 2025)",
+  "url": "https://grokipedia.com/page/Elon_Musk"
+}

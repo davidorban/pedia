@@ -1,0 +1,50 @@
+{
+  "title": "Cryptocurrency",
+  "summary": "Cryptocurrency is a digital asset designed for peer-to-peer electronic transactions, utilizing cryptographic methods to secure transfers and regulate issuance without centralized intermediaries. Bitcoin, created in 2008 by the pseudonymous Satoshi Nakamoto, pioneered this approach by solving the double-spending problem through distributed consensus. The technology enables borderless, censorship-resistant value transfer, challenging traditional financial systems.",
+  "word_count": 84,
+  "structure": [
+    "Definition and Fundamentals",
+    "Historical Development",
+    "Technological Foundations",
+    "Economic Mechanisms and Markets",
+    "Adoption and Real-World Applications",
+    "Regulatory and Legal Frameworks",
+    "Controversies and Empirical Critiques",
+    "Societal and Systemic Impacts",
+    "References"
+  ],
+  "factual": [
+    {
+      "claim": "Bitcoin has a fixed supply cap of 21 million coins",
+      "reference": "Ref 102, 103"
+    },
+    {
+      "claim": "Global cryptocurrency ownership stood at 9.9% in 2025, equating to 559 million users",
+      "reference": "Ref 150, 151"
+    },
+    {
+      "claim": "Bitcoin's annual electricity usage is estimated at 173 terawatt-hours (TWh)",
+      "reference": "Ref 215, 216"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Cryptocurrencies embody first-principles advancements in distributed verification, though empirical outcomes reveal high failure rates",
+      "tone": "Analytical, slightly skeptical",
+      "stance": "Balanced technical assessment"
+    },
+    {
+      "statement": "Decentralization is 'illusory', with emerging centralization risks in mining and exchanges",
+      "tone": "Critical, nuanced",
+      "stance": "Challenging core narrative"
+    },
+    {
+      "statement": "Cryptocurrencies offer potential for financial inclusion, but technological and access barriers limit broad adoption",
+      "tone": "Optimistic but measured",
+      "stance": "Recognizing both promise and limitations"
+    }
+  ],
+  "references_count": 264,
+  "last_updated": "Fact-checked by Grok 5 days ago",
+  "url": "https://grokipedia.com/page/Cryptocurrency"
+}

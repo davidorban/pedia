@@ -1,0 +1,60 @@
+{
+  "title": "Decentralization",
+  "summary": "Decentralization is 'the process by which the activities of an organization, particularly those related to planning and decision-making, are distributed or delegated away from a central, authoritative location or group and given to smaller factions within it.' The concept has been applied across multiple domains including group dynamics, management science, political science, law, public administration, technology, economics, and money. The word 'centralisation' came into use in France in 1794 during the post-Revolution French Directory leadership. Decentralization can be initiated through 'top-down' (from centers of authority) or 'bottom-up' (from individuals/localities) processes. It is often seen as a response to the problems of centralized systems and promises to enhance efficiency through both inter-governmental competitions with market features and fiscal discipline.",
+  "structure": [
+    "History",
+    "Overview",
+    "Systems approach",
+    "Goals",
+    "Processes",
+    "Determinants",
+    "In government policy",
+    "Political",
+    "Administrative",
+    "Fiscal",
+    "Market",
+    "Environmental",
+    "In economic ideology",
+    "Libertarian socialism",
+    "Free market",
+    "In the organizational structure of a firm",
+    "In technology and the Internet",
+    "Criticism",
+    "See also",
+    "References",
+    "Further reading",
+    "External links"
+  ],
+  "factual": [
+    {
+      "claim": "The word 'centralisation' came into use in France in 1794 during the post-Revolution French Directory leadership.",
+      "reference": "Ref 2"
+    },
+    {
+      "claim": "Decentralization can be initiated through 'top-down' (from centers of authority) or 'bottom-up' (from individuals/localities) processes.",
+      "reference": "Ref 45"
+    },
+    {
+      "claim": "Free market economist Friedrich von Hayek argued that 'free markets themselves are decentralized systems where outcomes are produced without explicit agreement or coordination by individuals who use prices as their guide.'",
+      "reference": "Ref 104"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Decentralization is often seen as a 'response to the problems of centralized systems'",
+      "tone": "neutral-analytical",
+      "stance": "presenting-perspective"
+    },
+    {
+      "statement": "Libertarian socialists believe that 'the exercise of power in any institutionalized form... brutalizes both the wielder of power and the one over whom it is exercised'",
+      "tone": "critical",
+      "stance": "anti-centralization"
+    },
+    {
+      "statement": "Decentralization promises to 'enhance efficiency through both inter-governmental competitions with market features and fiscal discipline'",
+      "tone": "optimistic",
+      "stance": "pro-decentralization"
+    }
+  ],
+  "url": "https://en.wikipedia.org/wiki/Decentralization"
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Blockchain",
+  "summary": "Blockchain is a distributed ledger technology maintaining a continuously growing list of cryptographically secured records called blocks. Originating from Satoshi Nakamoto's 2008 Bitcoin whitepaper, it enables secure transactions without trusted third parties by using consensus mechanisms like proof-of-work. Beyond cryptocurrencies, blockchain supports applications in supply chain, health records, and smart contracts, offering transparency, immutability, and decentralization.",
+  "word_count": 85,
+  "structure": [
+    "Fundamentals",
+    "Historical Development",
+    "Technical Architecture",
+    "Variations and Types",
+    "Applications and Use Cases",
+    "Challenges and Technical Innovations",
+    "Societal and Economic Impact",
+    "Controversies and Criticisms",
+    "References"
+  ],
+  "factual": [
+    {
+      "claim": "Bitcoin's network processes ~7 transactions per second",
+      "reference": "Ref 87"
+    },
+    {
+      "claim": "Global cryptocurrency market cap is ~$3.8 trillion",
+      "reference": "Ref 127, 128"
+    },
+    {
+      "claim": "Over 17,000 distinct cryptocurrencies exist",
+      "reference": "Ref 129"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Blockchain offers transparency, immutability, and decentralization",
+      "tone": "Balanced, technically analytical",
+      "stance": "Highlighting core value propositions"
+    },
+    {
+      "statement": "Technology enables secure transactions without trusted third parties",
+      "tone": "Neutral",
+      "stance": "Emphasizing technical capability"
+    },
+    {
+      "statement": "Critically optimistic about blockchain's potential with awareness of trade-offs",
+      "tone": "Balanced",
+      "stance": "Acknowledging both promise and limitations"
+    }
+  ],
+  "references_count": 232,
+  "last_updated": "Fact-checked by Grok 5 days ago",
+  "url": "https://grokipedia.com/page/Blockchain"
+}

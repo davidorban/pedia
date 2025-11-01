@@ -1,0 +1,48 @@
+{
+  "title": "Bitcoin",
+  "summary": "Bitcoin is a decentralized digital currency enabling direct online payments without intermediaries, operating on a blockchain network. Introduced by Satoshi Nakamoto in 2008, it uses proof-of-work to secure transactions and validate blocks. The protocol has a hard cap of 21 million coins, creating predictable scarcity. Bitcoin challenges centralized financial systems by offering a transparent, pseudonymous payment network with no single controlling entity.",
+  "word_count": 84,
+  "structure": [
+    "Foundational Principles",
+    "History",
+    "Technical Design",
+    "Economics",
+    "Adoption and Usage",
+    "Controversies and Criticisms",
+    "References"
+  ],
+  "factual": [
+    {
+      "claim": "Bitcoin has a fixed supply of 21 million coins",
+      "reference": "Ref 5"
+    },
+    {
+      "claim": "First real-world transaction was 10,000 BTC for two pizzas in May 2010",
+      "reference": "Ref 46"
+    },
+    {
+      "claim": "Global crypto ownership reached 559-590 million users by 2025",
+      "reference": "Ref 89"
+    }
+  ],
+  "interpretive": [
+    {
+      "statement": "Bitcoin challenges centralized financial systems by offering a transparent, pseudonymous payment network",
+      "tone": "Neutral-positive, emphasizing technological innovation",
+      "stance": "Critically supportive of decentralized finance"
+    },
+    {
+      "statement": "Creates predictable scarcity through hard cap mechanism",
+      "tone": "Analytical",
+      "stance": "Highlighting economic design principles"
+    },
+    {
+      "statement": "Offers alternative monetary system with technological innovation over speculative aspects",
+      "tone": "Balanced",
+      "stance": "Focus on technological merit"
+    }
+  ],
+  "references_count": 266,
+  "last_updated": "Fact-checked by Grok 5 days ago",
+  "url": "https://grokipedia.com/page/Bitcoin"
+}
