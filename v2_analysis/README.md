@@ -1,4 +1,4 @@
-# Wikipedia vs Grokipedia: V2 Quality Analysis
+# Wikipedia vs Grokipedia: Quality Analysis
 
 **Analysis Focus:** Content quality comparison where BOTH platforms have coverage
 **Date:** 2025-11-01
@@ -250,18 +250,18 @@ This analysis is part of the groki-wiki-comparison project.
 If citing this analysis:
 
 ```
-Wikipedia vs Grokipedia Quality Analysis V2 (2025)
-Evaluator: Quality Evaluator Agent
+Wikipedia vs Grokipedia Quality Analysis (2025)
+Evaluator: David Orban
 Date: November 1, 2025
 Topics: 7 (Bitcoin, Cryptocurrency, SpaceX, Robotics, Blockchain, Entrepreneurship, Elon Musk)
 Methodology: 7-dimension structured rubric with ≤100 word justifications
 Key Finding: Grokipedia 94% vs Wikipedia 76% average quality (7/7 topics)
-Repository: groki-wiki-comparison/v2_analysis/
+Repository: https://github.com/davidorban/pedia
 ```
 
 ---
 
 **Last Updated:** 2025-11-01
-**Analysis Version:** 2.0 (Quality-focused comparison)
+**Approach:** Quality-focused comparison
 **Total Analysis Time:** ~4 hours (reading, scoring, writing)
 **Total Words Generated:** ~25,000 words across all documents

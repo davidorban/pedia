@@ -120,7 +120,7 @@
 
 ## Quality vs Coverage Distinction
 
-**Critical Context:** This V2 analysis focuses on quality where BOTH platforms have coverage. It does NOT penalize for coverage gaps.
+**Critical Context:** This analysis focuses on quality where BOTH platforms have coverage. It does NOT penalize for coverage gaps.
 
 **Key Finding:** Grokipedia wins 7/7 topics on overall quality (average +6.3 points), but this reflects:
 1. Superior timeliness from AI-generation (easy updates)
