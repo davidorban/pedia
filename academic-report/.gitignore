@@ -1,0 +1,27 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bcf
+*.run.xml
+*.nav
+*.snm
+*.vrb
+
+# Generated PDF (comment out if you want to commit the PDF)
+# report.pdf
+
+# Backup files
+*~
+*.backup
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
