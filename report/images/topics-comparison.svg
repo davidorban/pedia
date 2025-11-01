@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1f2937">
+    Topic-by-Topic Quality Scores
+  </text>
+  <text x="450" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#6b7280">
+    Quality scores for each evaluated topic (out of 35 points)
+  </text>
+
+  <!-- Legend -->
+  <rect x="320" y="85" width="20" height="20" rx="4" fill="#2563eb"/>
+  <text x="345" y="100" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Wikipedia</text>
+  <rect x="480" y="85" width="20" height="20" rx="4" fill="#f97316"/>
+  <text x="505" y="100" font-family="Arial, sans-serif" font-size="14" fill="#6b7280">Grokipedia</text>
+
+  <!-- Y-axis -->
+  <line x1="80" y1="130" x2="80" y2="520" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="70" y="135" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">35</text>
+  <text x="70" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">17</text>
+  <text x="70" y="525" font-family="Arial, sans-serif" font-size="12" text-anchor="end" fill="#6b7280">0</text>
+  <text x="30" y="325" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2937" transform="rotate(-90 30 325)">
+    Quality Score
+  </text>
+
+  <!-- X-axis -->
+  <line x1="80" y1="520" x2="850" y2="520" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- Grid lines -->
+  <line x1="80" y1="130" x2="850" y2="130" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+  <line x1="80" y1="275" x2="850" y2="275" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="4,4" opacity="0.5"/>
+
+  <!-- Topic 1: Bitcoin -->
+  <rect x="110" y="220" width="35" height="300" rx="6" fill="#2563eb"/>
+  <text x="127" y="535" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1f2937">27</text>
+  <rect x="155" y="186" width="35" height="334" rx="6" fill="#f97316"/>
+  <text x="172" y="535" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1f2937">31</text>
+  <text x="150" y="560" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2937">Bitcoin</text>
+  <text x="150" y="575" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10b981">+4</text>
+
+  <!-- Topic 2: Cryptocurrency -->
+  <rect x="220" y="220" width="35" height="300" rx="6" fill="#2563eb"/>
+  <text x="237" y="535" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1f2937">27</text>
+  <rect x="265" y="152" width="35" height="368" rx="6" fill="#f97316"/>
+  <text x="282" y="535" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1f2937">34</text>
+  <text x="260" y="560" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2937">Crypto</text>
+  <text x="260" y="575" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10b981">+7</text>
+
+  <!-- Topic 3: SpaceX -->
+  <rect x="330" y="186" width="35" height="334" rx="6" fill="#2563eb"/>
+  <text x="347" y="535" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1f2937">30</text>
+  <rect x="375" y="164" width="35" height="356" rx="6" fill="#f97316"/>
+  <text x="392" y="535" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1f2937">32</text>
+  <text x="370" y="560" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2937">SpaceX</text>
+  <text x="370" y="575" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#fbbf24">+2</text>
+
+  <!-- Topic 4: Robotics -->
+  <rect x="440" y="242" width="35" height="278" rx="6" fill="#2563eb"/>
+  <text x="457" y="535" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1f2937">25</text>
+  <rect x="485" y="152" width="35" height="368" rx="6" fill="#f97316"/>
+  <text x="502" y="535" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1f2937">34</text>
+  <text x="480" y="560" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2937">Robotics</text>
+  <text x="480" y="575" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10b981">+9</text>
+
+  <!-- Topic 5: Blockchain -->
+  <rect x="550" y="220" width="35" height="300" rx="6" fill="#2563eb"/>
+  <text x="567" y="535" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1f2937">27</text>
+  <rect x="595" y="152" width="35" height="368" rx="6" fill="#f97316"/>
+  <text x="612" y="535" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1f2937">34</text>
+  <text x="590" y="560" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2937">Blockchain</text>
+  <text x="590" y="575" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10b981">+7</text>
+
+  <!-- Topic 6: Entrepreneurship -->
+  <rect x="660" y="265" width="35" height="255" rx="6" fill="#2563eb"/>
+  <text x="677" y="535" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1f2937">23</text>
+  <rect x="705" y="152" width="35" height="368" rx="6" fill="#f97316"/>
+  <text x="722" y="535" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1f2937">34</text>
+  <text x="700" y="560" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1f2937">Entrepren.</text>
+  <text x="700" y="575" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10b981">+11</text>
+
+  <!-- Topic 7: Elon Musk -->
+  <rect x="770" y="209" width="35" height="311" rx="6" fill="#2563eb"/>
+  <text x="787" y="535" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#1f2937">28</text>
+  <rect x="815" y="164" width="35" height="356" rx="6" fill="#f97316"/>
+  <text x="832" y="535" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1f2937">32</text>
+  <text x="810" y="560" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1f2937">E. Musk</text>
+  <text x="810" y="575" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#fbbf24">+4</text>
+</svg>

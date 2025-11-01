@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ea580c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1f2937">
+    Overall Quality Comparison
+  </text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#6b7280">
+    Average scores across 7 topics and 7 dimensions
+  </text>
+
+  <!-- Wikipedia Bar -->
+  <rect x="150" y="320" width="200" height="100" rx="8" fill="url(#blueGrad)" />
+  <text x="250" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2563eb">
+    Wikipedia
+  </text>
+  <text x="250" y="375" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">
+    26.7
+  </text>
+  <text x="250" y="405" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white">
+    76%
+  </text>
+
+  <!-- Grokipedia Bar -->
+  <rect x="450" y="230" width="200" height="190" rx="8" fill="url(#orangeGrad)" />
+  <text x="550" y="210" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f97316">
+    Grokipedia
+  </text>
+  <text x="550" y="330" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="white">
+    33.0
+  </text>
+  <text x="550" y="360" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white">
+    94%
+  </text>
+
+  <!-- Y-axis -->
+  <line x1="100" y1="430" x2="100" y2="120" stroke="#e5e7eb" stroke-width="2"/>
+  <text x="90" y="130" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#6b7280">35</text>
+  <text x="90" y="340" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#6b7280">15</text>
+  <text x="90" y="435" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#6b7280">0</text>
+  <text x="50" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2937" transform="rotate(-90 50 275)">
+    Average Score
+  </text>
+
+  <!-- X-axis -->
+  <line x1="100" y1="430" x2="720" y2="430" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- Winner Badge -->
+  <circle cx="550" cy="150" r="35" fill="#10b981"/>
+  <text x="550" y="158" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+    ✓
+  </text>
+
+  <!-- Margin indicator -->
+  <line x1="350" y1="320" x2="450" y2="320" stroke="#6b7280" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1f2937">
+    +6.3 points
+  </text>
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6b7280" font-style="italic">
+    Grokipedia wins 7/7 topics with 18% quality advantage
+  </text>
+</svg>
