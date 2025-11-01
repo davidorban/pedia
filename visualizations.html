@@ -254,7 +254,7 @@
             <!-- Citation Comparison -->
             <div class="chart-container">
                 <h3 class="chart-title">Citation Count Comparison</h3>
-                <p class="chart-subtitle">Average references per article</p>
+                <p class="chart-subtitle">Average references per article (+59% advantage)</p>
                 <canvas id="citationsChart"></canvas>
             </div>
 
@@ -472,32 +472,48 @@
 
         // 4. Citations Chart
         new Chart(document.getElementById('citationsChart'), {
-            type: 'doughnut',
+            type: 'bar',
             data: {
-                labels: ['Wikipedia (166)', 'Grokipedia (265)'],
-                datasets: [{
-                    data: [166, 265],
-                    backgroundColor: [colors.wikipedia, colors.grokipedia],
-                    borderWidth: 0
-                }]
+                labels: ['Average Citations per Article'],
+                datasets: [
+                    {
+                        label: 'Wikipedia',
+                        data: [166],
+                        backgroundColor: colors.wikipedia,
+                        borderRadius: 8
+                    },
+                    {
+                        label: 'Grokipedia',
+                        data: [265],
+                        backgroundColor: colors.grokipedia,
+                        borderRadius: 8
+                    }
+                ]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 300,
+                        title: {
+                            display: true,
+                            text: 'Number of References',
+                            font: { size: 14, weight: 'bold' }
+                        }
+                    }
+                },
                 plugins: {
                     legend: {
                         display: true,
-                        position: 'bottom',
-                        labels: {
-                            font: { size: 14 },
-                            padding: 20
-                        }
+                        position: 'top',
+                        labels: { font: { size: 14 } }
                     },
                     tooltip: {
                         callbacks: {
                             label: function(context) {
-                                const label = context.label || '';
-                                return label + ' avg references';
+                                return context.dataset.label + ': ' + context.parsed.y + ' references';
                             }
                         }
                     }
