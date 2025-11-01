@@ -18,6 +18,8 @@
     <meta name="twitter:title" content="Wikipedia vs Grokipedia Quality Comparison">
     <meta name="twitter:description" content="Perfect accuracy tie validates AI-generated encyclopedias. Timeliness advantage is decisive.">
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
     <style>
         * {
             margin: 0;
@@ -255,12 +257,60 @@
 
         .cover-image {
             width: 100%;
-            max-width: 800px;
+            max-width: 500px;
             margin: 2rem auto;
             display: block;
             border-radius: 15px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             border: 3px solid rgba(37, 99, 235, 0.2);
+        }
+
+        .visualizations-section {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            margin: 3rem 0;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .visualizations-section h2 {
+            color: var(--blue-dark);
+            margin-bottom: 2rem;
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .chart-container {
+            background: var(--off-white);
+            padding: 2rem;
+            border-radius: 15px;
+            border: 2px solid var(--gray-light);
+        }
+
+        .chart-container.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .chart-title {
+            font-size: 1.3rem;
+            color: var(--blue-dark);
+            margin-bottom: 0.5rem;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .chart-subtitle {
+            text-align: center;
+            color: var(--gray-medium);
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
         }
 
         footer {
@@ -344,23 +394,23 @@
                 <h2>📊 Full Analysis Report</h2>
                 <p>Comprehensive quality comparison across 7 topics and 7 dimensions. Detailed methodology, findings, and strategic recommendations.</p>
                 <a href="report/pedia-article.pdf" class="btn">📄 Download PDF Report</a>
-                <a href="v2_analysis/V2_SYNTHESIS_REPORT.md" class="btn btn-secondary">Read Online</a>
-                <a href="v2_analysis/BLOG_POST.md" class="btn btn-secondary">Blog Post</a>
+                <a href="https://github.com/davidorban/pedia/blob/main/v2_analysis/V2_SYNTHESIS_REPORT.md" class="btn btn-secondary">Read Online</a>
+                <a href="https://github.com/davidorban/pedia/blob/main/v2_analysis/BLOG_POST.md" class="btn btn-secondary">Blog Post</a>
             </div>
 
             <div class="card">
                 <h2>📈 Individual Evaluations</h2>
                 <p>Detailed dimension-by-dimension analysis for each topic with scoring rubrics and justifications.</p>
-                <a href="v2_analysis/eval_bitcoin.md" class="btn">Bitcoin</a>
-                <a href="v2_analysis/eval_cryptocurrency.md" class="btn">Cryptocurrency</a>
-                <a href="v2_analysis/eval_spacex.md" class="btn">SpaceX</a>
+                <a href="https://github.com/davidorban/pedia/blob/main/v2_analysis/eval_bitcoin.md" class="btn">Bitcoin</a>
+                <a href="https://github.com/davidorban/pedia/blob/main/v2_analysis/eval_cryptocurrency.md" class="btn">Cryptocurrency</a>
+                <a href="https://github.com/davidorban/pedia/blob/main/v2_analysis/eval_spacex.md" class="btn">SpaceX</a>
             </div>
 
             <div class="card">
                 <h2>📚 Key Insights</h2>
                 <p>Executive summary of findings, quality matrix, and comprehensive evaluation data.</p>
-                <a href="v2_analysis/KEY_INSIGHTS.md" class="btn">Key Insights</a>
-                <a href="v2_analysis/quality_matrix.md" class="btn btn-secondary">Quality Matrix</a>
+                <a href="https://github.com/davidorban/pedia/blob/main/v2_analysis/KEY_INSIGHTS.md" class="btn">Key Insights</a>
+                <a href="https://github.com/davidorban/pedia/blob/main/v2_analysis/quality_matrix.md" class="btn btn-secondary">Quality Matrix</a>
             </div>
         </div>
 
@@ -455,12 +505,65 @@
             </div>
         </div>
 
+        <div class="visualizations-section">
+            <h2>📊 Interactive Data Visualizations</h2>
+            <div class="chart-grid">
+                <!-- Overall Quality Comparison -->
+                <div class="chart-container full-width">
+                    <h3 class="chart-title">Overall Quality Comparison</h3>
+                    <p class="chart-subtitle">Average scores across all 7 topics and 7 dimensions</p>
+                    <canvas id="overallChart"></canvas>
+                </div>
+
+                <!-- Dimension Breakdown -->
+                <div class="chart-container full-width">
+                    <h3 class="chart-title">Quality Dimensions Radar</h3>
+                    <p class="chart-subtitle">Performance across 7 evaluation dimensions</p>
+                    <canvas id="radarChart"></canvas>
+                </div>
+
+                <!-- Topic-by-Topic Results -->
+                <div class="chart-container full-width">
+                    <h3 class="chart-title">Topic-by-Topic Results</h3>
+                    <p class="chart-subtitle">Quality scores for each evaluated topic (out of 35)</p>
+                    <canvas id="topicsChart"></canvas>
+                </div>
+
+                <!-- Citation Comparison -->
+                <div class="chart-container">
+                    <h3 class="chart-title">Citation Count Comparison</h3>
+                    <p class="chart-subtitle">Average references per article (+59% advantage)</p>
+                    <canvas id="citationsChart"></canvas>
+                </div>
+
+                <!-- Dimension Advantages -->
+                <div class="chart-container">
+                    <h3 class="chart-title">Grokipedia Advantages</h3>
+                    <p class="chart-subtitle">Point differences by dimension</p>
+                    <canvas id="advantagesChart"></canvas>
+                </div>
+
+                <!-- Win Distribution -->
+                <div class="chart-container">
+                    <h3 class="chart-title">Dimension Win Distribution</h3>
+                    <p class="chart-subtitle">Number of dimensions won per platform</p>
+                    <canvas id="winDistChart"></canvas>
+                </div>
+
+                <!-- Topic Margins -->
+                <div class="chart-container">
+                    <h3 class="chart-title">Quality Margins by Topic</h3>
+                    <p class="chart-subtitle">Point differences (Grokipedia advantage)</p>
+                    <canvas id="marginsChart"></canvas>
+                </div>
+            </div>
+        </div>
+
         <div class="navigation">
             <h2>Explore the Research</h2>
-            <a href="visualizations.html" class="btn">📊 Interactive Visualizations</a>
             <a href="https://github.com/davidorban/pedia" class="btn">GitHub Repository</a>
-            <a href="v2_analysis/evaluation_summary.md" class="btn btn-secondary">Statistical Analysis</a>
-            <a href="README.md" class="btn btn-secondary">Documentation</a>
+            <a href="https://github.com/davidorban/pedia/blob/main/v2_analysis/evaluation_summary.md" class="btn btn-secondary">Statistical Analysis</a>
+            <a href="https://github.com/davidorban/pedia/blob/main/README.md" class="btn btn-secondary">Documentation</a>
         </div>
     </div>
 
@@ -468,5 +571,355 @@
         <p>© 2025 David Orban | <a href="https://davidorban.com">davidorban.com</a></p>
         <p>This research was conducted using Claude Flow multi-agent orchestration</p>
     </footer>
+
+    <script>
+        // Color scheme
+        const colors = {
+            wikipedia: '#2563eb',
+            grokipedia: '#f97316',
+            gray: '#6b7280',
+            green: '#10b981',
+            red: '#ef4444'
+        };
+
+        // Data
+        const dimensions = ['Accuracy', 'Timeliness', 'Citations', 'Depth', 'Balanced\nPerspective', 'Epistemic\nFraming', 'Readability'];
+        const wikipediaScores = [5.0, 3.4, 3.6, 3.6, 3.3, 3.8, 4.0];
+        const grokipediaScores = [5.0, 5.0, 5.0, 4.9, 4.4, 4.7, 4.6];
+
+        const topics = ['Bitcoin', 'Cryptocurrency', 'SpaceX', 'Robotics', 'Blockchain', 'Entrepreneurship', 'Elon Musk'];
+        const wikipediaTopicScores = [27, 27, 30, 25, 27, 23, 28];
+        const grokipediaTopicScores = [31, 34, 32, 34, 34, 34, 32];
+
+        // Chart.js default settings
+        Chart.defaults.font.family = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif';
+        Chart.defaults.font.size = 13;
+
+        // 1. Overall Quality Comparison
+        new Chart(document.getElementById('overallChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Overall Quality Score'],
+                datasets: [
+                    {
+                        label: 'Wikipedia',
+                        data: [26.7],
+                        backgroundColor: colors.wikipedia,
+                        borderRadius: 8,
+                        barPercentage: 0.5
+                    },
+                    {
+                        label: 'Grokipedia',
+                        data: [33.0],
+                        backgroundColor: colors.grokipedia,
+                        borderRadius: 8,
+                        barPercentage: 0.5
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 35,
+                        title: {
+                            display: true,
+                            text: 'Average Score (out of 35)',
+                            font: { size: 14, weight: 'bold' }
+                        },
+                        ticks: {
+                            callback: function(value) {
+                                return value + '/35 (' + Math.round((value/35)*100) + '%)';
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: { font: { size: 14 } }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                const value = context.parsed.y;
+                                const percentage = Math.round((value/35)*100);
+                                return context.dataset.label + ': ' + value + '/35 (' + percentage + '%)';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // 2. Radar Chart
+        new Chart(document.getElementById('radarChart'), {
+            type: 'radar',
+            data: {
+                labels: dimensions,
+                datasets: [
+                    {
+                        label: 'Wikipedia',
+                        data: wikipediaScores,
+                        backgroundColor: 'rgba(37, 99, 235, 0.2)',
+                        borderColor: colors.wikipedia,
+                        borderWidth: 3,
+                        pointBackgroundColor: colors.wikipedia,
+                        pointBorderColor: '#fff',
+                        pointBorderWidth: 2,
+                        pointRadius: 5
+                    },
+                    {
+                        label: 'Grokipedia',
+                        data: grokipediaScores,
+                        backgroundColor: 'rgba(249, 115, 22, 0.2)',
+                        borderColor: colors.grokipedia,
+                        borderWidth: 3,
+                        pointBackgroundColor: colors.grokipedia,
+                        pointBorderColor: '#fff',
+                        pointBorderWidth: 2,
+                        pointRadius: 5
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    r: {
+                        beginAtZero: true,
+                        max: 5,
+                        ticks: {
+                            stepSize: 1,
+                            callback: function(value) {
+                                return value + '/5';
+                            }
+                        },
+                        pointLabels: {
+                            font: { size: 13, weight: 'bold' }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: { font: { size: 14 } }
+                    }
+                }
+            }
+        });
+
+        // 3. Topics Chart
+        new Chart(document.getElementById('topicsChart'), {
+            type: 'bar',
+            data: {
+                labels: topics,
+                datasets: [
+                    {
+                        label: 'Wikipedia',
+                        data: wikipediaTopicScores,
+                        backgroundColor: colors.wikipedia,
+                        borderRadius: 6
+                    },
+                    {
+                        label: 'Grokipedia',
+                        data: grokipediaTopicScores,
+                        backgroundColor: colors.grokipedia,
+                        borderRadius: 6
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 35,
+                        title: {
+                            display: true,
+                            text: 'Quality Score (out of 35)',
+                            font: { size: 14, weight: 'bold' }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: { font: { size: 14 } }
+                    }
+                }
+            }
+        });
+
+        // 4. Citations Chart
+        new Chart(document.getElementById('citationsChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Average Citations per Article'],
+                datasets: [
+                    {
+                        label: 'Wikipedia',
+                        data: [166],
+                        backgroundColor: colors.wikipedia,
+                        borderRadius: 8
+                    },
+                    {
+                        label: 'Grokipedia',
+                        data: [265],
+                        backgroundColor: colors.grokipedia,
+                        borderRadius: 8
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 300,
+                        title: {
+                            display: true,
+                            text: 'Number of References',
+                            font: { size: 14, weight: 'bold' }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: { font: { size: 14 } }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.dataset.label + ': ' + context.parsed.y + ' references';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // 5. Advantages Chart
+        const advantages = [1.6, 1.4, 1.3, 1.1, 0.9, 0.6];
+        const advantageLabels = ['Timeliness', 'Citations', 'Depth', 'Balanced\nPerspective', 'Epistemic\nFraming', 'Readability'];
+
+        new Chart(document.getElementById('advantagesChart'), {
+            type: 'bar',
+            data: {
+                labels: advantageLabels,
+                datasets: [{
+                    label: 'Point Advantage',
+                    data: advantages,
+                    backgroundColor: colors.grokipedia,
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        max: 2,
+                        title: {
+                            display: true,
+                            text: 'Grokipedia Advantage (points)',
+                            font: { size: 14, weight: 'bold' }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+
+        // 6. Win Distribution
+        new Chart(document.getElementById('winDistChart'), {
+            type: 'pie',
+            data: {
+                labels: ['Grokipedia Wins', 'Wikipedia Wins', 'Ties'],
+                datasets: [{
+                    data: [6, 0, 1],
+                    backgroundColor: [colors.grokipedia, colors.wikipedia, colors.gray],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        labels: {
+                            font: { size: 14 },
+                            padding: 20
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': ' + context.parsed + ' dimensions';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // 7. Margins Chart
+        const margins = [4, 7, 2, 9, 7, 11, 4];
+
+        new Chart(document.getElementById('marginsChart'), {
+            type: 'bar',
+            data: {
+                labels: topics,
+                datasets: [{
+                    label: 'Quality Margin',
+                    data: margins,
+                    backgroundColor: margins.map(m =>
+                        m >= 10 ? '#10b981' :
+                        m >= 7 ? colors.grokipedia :
+                        m >= 4 ? '#fbbf24' :
+                        '#94a3b8'
+                    ),
+                    borderRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 12,
+                        title: {
+                            display: true,
+                            text: 'Point Difference',
+                            font: { size: 14, weight: 'bold' }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 </html>
